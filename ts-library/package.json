@@ -1,0 +1,33 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "typescript in hdevframe",
+  "main": "KeyStoreAccount.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/haolifengwang/hdevframe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.0.1",
+    "ethereumjs-tx": "^1.3.7",
+    "ethereumjs-util": "^7.1.3",
+    "ethers": "^5.5.1",
+    "keythereum": "^1.2.0",
+    "lowdb": "1.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.13",
+    "redis": "^3.1.2",
+    "ringbufferjs": "^2.0.0",
+    "web3": "^1.6.0",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5",
+    "winston-syslog": "^2.4.4"
+  },
+  "keywords": [],
+  "devDependencies": {}
+}
