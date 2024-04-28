@@ -103,3 +103,17 @@ mvn compile exec:java
 mvn clean compile exec:java
 ```
 请确保你的主类包含一个public static void main(String[] args)方法，这是Java程序的入口点。
+
+## 使用命令构建项目
+
+```sh
+mvn archetype:generate "-DgroupId=com.you.name" "-DartifactId=yourname" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
+```
+
+### 参数说明：
+
++ -DgroupId: 组织名，公司网址的反写 + 项目名称
++ -DartifactId: 项目名-模块名
++ -DarchetypeArtifactId: 指定 ArchetypeId，maven-archetype-quickstart，创建一个简单的 Java 应用
++ -DinteractiveMode: 是否使用交互模式
+
